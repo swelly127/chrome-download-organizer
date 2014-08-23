@@ -1,0 +1,82 @@
+<html>
+    <head><title>Chrome Download Organizer Options</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script type="text/javascript" src="saved-code.js"></script>
+        <script type="text/javascript" src="utils.js"></script>
+    </head>
+
+    <body>
+
+        <br> <br>
+        <h1> Chrome Download Organizer </h1>
+
+        <div id="status"></div>
+        <div class="description">
+            <a  target="_blank" href="http://www.twitter.com/swelly127"><img src="img/mudkip.jpg" title="Jessica Shu" height="64" width="64" alt="Jessica Shu"></a>
+            <p id="desc" class="bubble">
+                Type in a full or partial url that the downloads will be sorted from and a folder path, relative to your default download directory, for them to be downloaded into. If the folder does not exist it will be created. <br>
+                If you would like to change your default download directory you can do so at <span style='color:blue'> /chrome://settings/ </span> under advanced settings.
+                We recommend using your home directory for flexibility.<br>
+                Files can be filtered by URL, filetype, or both.
+            </p>
+        </div>
+
+        <br><br><br><br>
+
+        <div class="filterholder">
+            <div id="filter">
+                <p>Filter by Type:</p>
+            </div>
+            <div id="filters">
+                <input type="checkbox" name="name" value="value" id="filtercheckbox.images"> Images (jpg, png)
+                <input type="checkbox" name="name" value="value" id="filtercheckbox.music"> Music Files (mp3, wav)
+                <input type="checkbox" name="name" value="value" id="filtercheckbox.docs"> Documents (doc, pdf, etc)
+                <input type="checkbox" name="name" value="value" id="filtercheckbox.arch"> Archives (zip, rar, dmg)
+            </div>
+        </div>
+        </div>
+
+
+        Download URL contains:
+        <input type="text" id="url" placeholder="URL"/>
+        <input type="text" id="rename" placeholder="Folder"/>
+        <a href="#" class="classname" id="add">Add Filter</a>
+
+
+        <br><br/>
+        <table id="table"></table>
+
+         <p>       <a href="#" class="classname" id="clear">Clear Selected Filters</a>
+        </p>
+
+        <hline>
+
+        <div class="description">
+            <a  target="_blank" href="http://www.twitter.com/swelly127"><img src="img/mudkip.jpg" title="Jessica Shu" height="64" width="64" alt="Jessica Shu"></a>
+            <div id="desc" class="bubble">
+                Check prevent file duplication to save memory by overwriting existing files.
+            </div>
+        </div>
+
+        <br><br><br><br>
+        <div class="duplicationSettings">
+            <p> Prevent File Duplication:
+                <input type="checkbox" name="name" value="value" id="filtercheckbox.preventDuplication">
+            </p>
+        </div>
+
+             <p><a href="mailto:jessicashu127@gmail.com">Email me</a> with questions, comments, or suggestions
+            </p>
+                         <p>
+                         <span id="version">Version: </span>
+                         </p>
+
+                         <div class="website">
+            <a  target="_blank" href="http://www.jessicashu.com">Visit My Website</a>
+        </div>
+    </body>
+
+    <script src="options.js"></script>
+
+</html>
+
